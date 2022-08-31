@@ -1,0 +1,70 @@
+/* 定义变量 */
+
+:root {
+    --color-Lightgray-bg: #f5f6f7;
+    /*浅灰色背景色（已用）*/
+    --color-black-text: #333333;
+    /*黑色字体（已用）*/
+    --color-gray-text: #999999;
+    /*灰色字体（已用）*/
+    --color-split-line: #e5e5e5;
+    /*分割线*/
+    --color-orange-text: #ff6619;
+    /*橙色字体*/
+    --color-green-text: #5bc23f;
+    /*绿色字体*/
+    /* tab标题未选中颜色（已用） */
+    --tab-color-unselect: #737373;
+    /* tab标题大小（已用） */
+    --tab-font-size: 15px;
+    /* 底部按钮高度 */
+    --size-bottom-btn: 40px;
+    /*字体大小*/
+    --size-text-small: 14px;
+    --size-text-title: 16px;
+    --size-text-12: 12px;
+    --size-text-13: 13px;
+    --size-text-14: 14px;
+    --size-text-15: 15px;
+    --size-text-16: 16px;
+    --size-text-17: 17px;
+    --size-text-18: 18px;
+    /* 灰色背景色 */
+    --color-gray-bg: #F2F2F2;
+    /* 白色背景 lzy*/
+    --color-white-bg: #FFFFFF;
+    /* 查询页面输入框高度 lzy */
+    --height-input-search: 32px;
+    /* 选中的颜色 */
+    --color-orange-selected: #ff6619;
+    --color-selected-bg: #fef6ef;
+    /* 未选中颜色 */
+    --color-unselected-text: #bdbdbd;
+    /* 无信息时的背景颜色 */
+    /* --color-nomessage-bg: rgba(220,220,220,0.5) */
+    --color-nomessage-bg: transparent;
+    /* 审批结果 按钮*/
+    --size-margin-bottom: 20px;
+    --size-margin-leftright: 15px;
+    /* 顶部分割线 */
+    --color-top-cuttingline: #e5e5e5;
+    --body-margin-top: 46px;
+    /* 列表高度 */
+    --list-height-ds: calc(100vh - 227px);
+    /* 选中的文本颜色 */
+    --color-selected-text: #333333;
+    /* noMessage hight */
+    --height-no-message: calc(100vh - 330px);
+    /* radio 之间间距 */
+    --radio-margin-left: 20px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: var(--color-black-text);
+    background-color: var(--color-Lightgray-bg);
+}
